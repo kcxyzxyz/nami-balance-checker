@@ -3,8 +3,15 @@ const Bip39 = require("bip39");
 const Blockfrost = require("@blockfrost/blockfrost-js");
 const CardanoWasm = require("@emurgo/cardano-serialization-lib-nodejs");
 
+console.clear();
+console.clear();
+console.log("\n");
+console.log("(◕‿◕)");
+console.log("https://sk1ppi.vercel.app");
+console.log("\n");
+
 const blockfrostApi = new Blockfrost.BlockFrostAPI({
-  projectId: "BLOCKFROST_API_KEY", // see: https://blockfrost.io
+  projectId: process.env.BLOCKFROST_KEY, // see: https://blockfrost.io
   // For a list of all options see section below
 });
 
@@ -67,7 +74,7 @@ const main = async () => {
       .addressesUtxosAll(address)
       .catch((err) => 0);
 
-    console.log(`${address} => ${utxos.length} utxos`);
+    console.log(`${utxos.length || 0} UTXO\t\t ${address}`);
   }
 };
 
