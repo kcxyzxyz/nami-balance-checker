@@ -1,6 +1,7 @@
-# Cardano Nami Wallet Recovery
+# @sk1ppi/cardano-nami-wallet-recovery
 
-This package provides a utility function to generate a list of accounts for Cardano Nami wallet recovery from a mnemonic seed.
+Recover a wallet from a mnemonic phrase using the Cardano Serialization Library and the bip39 library. It retrieves the private key, public key and address of each wallet created in Nami Wallet.
+
 
 ## Installation
 
