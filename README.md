@@ -1,7 +1,41 @@
+# Cardano Nami Wallet Recovery
 
-![Output preview](https://github.com/sk1ppi/cli_nami_wallet_balance_checker/blob/main/demo.gif)
+This package provides a utility function to generate a list of accounts for Cardano Nami wallet recovery from a mnemonic seed.
 
+## Installation
 
-Automated balance checker for nami wallet using blockfrost-js and cardano-serialization-lib-nodejs.
+To use this package, install it in your project using npm:
 
-![](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=ffffff)
+```bash
+npm i cardano-nami-wallet-recovery
+```
+
+## Usage
+
+```js
+const { fromMnemonicSeed } = require("cardano-nami-wallet-recovery");
+
+// Example mnemonic seed
+const mnemonicSeed = 'abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about';
+const accounts = fromMnemonicSeed(mnemonicSeed);
+
+// Output the generated accounts
+console.log(accounts);
+// [
+//   {
+//     accountKey: 'acct_xvk1...',
+//     publicKey: 'xpub1...',
+//     stakeKey: 'stake1u...',
+//     addressShelley: 'addr1...'
+//   },
+//   ...
+// ]
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[Apache-2.0](LICENSE)
