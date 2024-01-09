@@ -51,7 +51,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Reach out
 
-![](https://avatars.![image0_0-3](https://github.com/sk1ppi/cardano_nami_wallet_recovery/assets/121653522/4dc2f3ff-a082-45fb-80de-d3a32bea18ae)
+![image0_0-3](https://github.com/sk1ppi/cardano_nami_wallet_recovery/assets/121653522/4dc2f3ff-a082-45fb-80de-d3a32bea18ae)
 
 - [Via e-mail](mailto:kcxyzxyz@icloud.com?subject=Reaching%20out!)
 
