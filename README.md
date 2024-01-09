@@ -9,13 +9,15 @@ Recover a wallet from a mnemonic phrase using the Cardano Serialization Library 
 
 ## Install
 
-Recover a wallet from a mnemonic phrase using the Cardano Serialization Library and the bip39 library. It retrieves the private key, public key and address of each wallet created in Nami Wallet.
+To install the package, use the following command:
 
 ```bash
 npm i @sk1ppi/cardano-nami-wallet-recovery
 ```
 
 ## Example
+
+To use the package, use the following code example:
 
 ```js
 const { fromMnemonicSeed } = require("cardano-nami-wallet-recovery");
