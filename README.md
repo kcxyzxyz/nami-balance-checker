@@ -8,7 +8,7 @@ Recover a wallet from a mnemonic phrase using the Cardano Serialization Library 
 To use this package, install it in your project using npm:
 
 ```bash
-npm i cardano-nami-wallet-recovery
+npm i @sk1ppi/cardano-nami-wallet-recovery
 ```
 
 ## Usage
