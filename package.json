@@ -1,6 +1,6 @@
 {
   "name": "@sk1ppi/cardano-nami-wallet-recovery",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Recover a wallet from a mnemonic phrase using the Cardano Serialization Library and the bip39 library. It retrieves the private key, public key and address of each wallet created in Nami Wallet.",
   "entryPoint": "index.js",
   "scripts": {
